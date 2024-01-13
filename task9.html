@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mina e-commerce Website Template</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;1,600;1,700&family=Poppins:wght@200;300;400;600&family=Raleway:wght@200;400;600;800&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    i{
+    font-size: 22px;
+    padding-top: -10px;
+}
+
+.left{
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+h5{
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.right{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-right: 90px;
+    display: flex;
+}
+
+.right i{
+    font-size: 16px;
+}
+
+.right h5{
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.btn{
+    text-align: center;
+    background-color: #583BB6;
+    color: white;
+    border-radius: 50px;
+    width: 151px;
+    height: 36px;
+    padding: 10px 24px;
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.btn:hover{
+    background-color: #4b1de3;
+    color: white;
+}
+
+.left i{
+    color: gray;
+}
+
+.left i:hover{
+    color: red;
+}
+
+.l-side h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+    font-weight: 800;
+}
+
+.nav-item{
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: black;
+
+}
+
+.nav-link i{
+    padding-right: 10px;
+}
+
+.center{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgba(78, 31, 89, 1);
+}
+
+.center h4{
+    font-size: 16px;
+}
+.mount{
+    position: absolute;
+    
+    
+}
+
+.mount h1{
+    margin-top: 230px;
+    font-size: 6rem;
+    font-weight: 500; 
+    padding-left: 25%;
+    color: white;
+}
+
+.mount p{
+    font-size: 20px;
+    margin-top: 24px;
+    padding-left: 45%;
+    color: white;
+}
+
+.mount button{
+    margin-top: 24px;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    color: rgb(76, 31, 89);;
+    width: 163px;
+    height: 57px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-left: 48%;
+  
+}
+
+.second{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.second h1{
+    font-size: 50px;
+}
+
+
+
+.text{
+    margin-top: 40px;
+}
+
+.text p{
+    color: rgb(93, 87, 94);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.button1{
+    width: 175px;
+    height: 57px;
+    padding: 14px 40px;
+    text-align: center;
+    color: white;
+    background-color: #4C1F59;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    margin-top: 20px;
+}
+
+
+
+.mount form input{
+    width: 400px;
+    height: 48px;
+    padding: 16px 56px 16px 16px;
+    font-size: 16px;
+    border-color: white;
+}
+
+.mount form label{
+    font-size: 20px;
+    padding-right: 300px;
+}
+
+.mount form{
+    margin-top: 30px;
+}
+
+.mid .button1{
+    margin-left: 150px;
+    font-size: 18px;
+    width: 194px;
+    height: 53px;
+    color: white;
+}
+
+footer{
+    background-color: rgb(241, 241, 241);
+    opacity: 1;
+    height: 272px;
+}
+
+.let h4{
+    font-weight: 700;
+    margin-left: 150px; 
+    margin-top: 90px;
+    font-size: 2rem;
+}
+
+.icon{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.icon i{
+    font-size: 25px;
+}
+
+.rig h4 u{
+    color: rgb(26, 26, 26);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.rig{
+    margin-top: 90px;
+    margin-left: 290px;
+}
+
+.pot{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pot span{
+    color: gray;
+    text-decoration: line-through;
+}
+</style>
+</head>
+<body style="overflow-x: hidden;">
+    <header style="position: sticky; top: 0; background-color: white; ">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="left">
+                    <i class="fa-solid fa-arrow-left"></i> 
+                    <h5>All templates</h5>
+                    <i class="fa-solid fa-tv" style="padding-left: 30px;"></i>
+                    <i class="material-icons" style="padding-left: 15px;">&#xe331;</i>
+                    <i class="material-icons" style="padding-left: 15px;">&#xe324;</i>
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <div class="right">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <h5>No credit card required</h5>
+                    <button type="button" class="btn">START BUILDING</button>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col-lg-6">
+                <div class="l-side">
+                    <h4>MINA</h4>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <ul class="nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Shop</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">All production</a></li>
+                          <li><a class="dropdown-item" href="#">New collection</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Sustainablity</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-bag-shopping"></i>Cart (0)
+                        </a>
+                      </li>
+                  </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="center">
+                <h4>Free shipping on orders over $50 amount</h4>
+            </div>
+        </div>
+        <!--Background Image:1-->
+
+        <div class="row">
+            <img src="F:\Development\e-commerce website\1.jpg">
+            <div class="mount">
+                <h1> Homemade Ceramics</h1>
+                <p>Painted clay made with love</p>
+                <button type="button" class="btn btn-default">Shop Now</button>
+            </div>
+           
+            
+           
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <div class="second" style="margin-bottom: 80px;">
+                    <h1>Our bestsellers</h1>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+
+        <div class="container">
+            <div class="row" style="margin: 0px 20px 100px 20px;">
+                <div class="col-lg-3">
+                    <img src="F:\Development\e-commerce website\2.jpg" alt="" width="296px" height="296px">
+                    <div class="pot">
+                        <h3>'Candy' Flowerpot</h3>
+                        <p><span>$59.90</span> $49.90</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <img src="F:\Development\e-commerce website\3.jpg" alt="" width="296px" height="296px">
+                    <div class="pot">
+                        <h3>'Drop' Vase</h3>
+                        <p><span>$49.99</span> $49.99</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <img src="F:\Development\e-commerce website\4.jpg" alt="" width="296px" height="296px">
+                    <div class="pot">
+                        <h3>'Wave' Vase</h3>
+                        <p style="color: grey;">SOLD OUT</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <img src="F:\Development\e-commerce website\5.jpg" alt="" width="296px" height="296px">
+                    <div class="pot">
+                        <h3>'Sun' Vase</h3>
+                        <p> $69.90</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="F:\Development\e-commerce website\bg2.jpg">
+            <div class="mount">
+                <h1 style="padding-left: 28% ;"> Home decore items</h1>
+                <p>Find your new favorite pieces.</p>
+                <button type="button" class="btn btn-default">Shop Now</button>
+            </div>
+           
+            
+           
+        </div>
+        
+        <div class="container">
+            <div class="row" style=" margin: 100px 30px 100px 30px;">
+                <div class="col-lg-6">
+                    <img src="F:\Development\e-commerce website\7.jpg" alt="" width="606px" height="384px">
+                    <div class="text">
+                        <h2>About Mina</h2>
+                        <p>Mina is a brand born out of a passion for ceramics.</p>
+                        <button type="button" class="button1">Learn more</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="F:\Development\e-commerce website\8.jpg" alt="" width="606px" height="384px">
+                    <div class="text">
+                        <h2>Sustainability</h2>
+                        <p>Mina is an eco-friendly brand that cares about sustainability.</p>
+                        <button type="button" class="button1">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <img src="F:\Development\e-commerce website\1.jpg">
+            <div class="mount">
+                <h1>Sign-up for our newsletter</h1>
+                 <form action="">
+                    <label for="email" style="padding-left: 40%; color: white;">Your email*</label><br>
+                     <input type="email" placeholder="Your email address" style="margin-left: 40% ;">
+                </form>
+              <button type="button" class="button">Submit</button>
+            </div>                     
+        </div>      
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="second">
+                        <h1>Follow us on Instagram</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin: 0px 30px 40px 30px;">
+                <div class="col-lg-4">
+                    <img src="F:\Development\e-commerce website\10.jpg" alt="" width="400px" height="384px">
+                </div>
+                <div class="col-lg-4">
+                    <img src="F:\Development\e-commerce website\11.jpg" alt="" width="400px" height="384px">
+                </div>
+                <div class="col-lg-4">
+                    <img src="F:\Development\e-commerce website\12.jpg" alt="" width="400px" height="384px">
+                </div>
+            </div>
+
+            <div class="row" style="margin-bottom: 80px;">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <div class="mid">
+                        <button type="button" class="button1">@mina_studio</button>
+                    </div>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="row">
+           
+            <div class="col-lg-6">
+               <div class="let">
+                <h4>MINA</h4>
+               </div>
+               <div class="icon">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook" style="padding-left: 30px;"></i>
+                <i class="fa-brands fa-instagram" style="padding-left: 30px;"></i>
+               </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="rig">
+                    <h4><u>Contact</u></h4>
+                    <h4><u>Returns</u></h4>
+                    <h4><u>Payments & Delivery</u></h4>
+                </div>
+            </div>
+           
+        </div>
+    </footer>
+
+</body>
+</html>
